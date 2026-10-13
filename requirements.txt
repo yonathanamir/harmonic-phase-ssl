@@ -1,0 +1,4 @@
+# setup_env.ps1 installs the CUDA build of torch first (from download.pytorch.org);
+# this file then adds the rest without replacing it.
+torch>=2.4
+numpy>=1.26,<3
